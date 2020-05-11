@@ -44,7 +44,7 @@ class MyFrame(wx.Frame):
 
 # pull data from HubSpot and fill list
     def _f_process(self):
-        authentication_key = APIKey("06f14623-f391-428e-8a15-c285e0350a86")
+        authentication_key = APIKey("API KEY")
         connection = PortalConnection(authentication_key, "Forduplicates")
         df1 = pd.DataFrame([contact.email_address for contact in get_all_contacts(connection)])
         df2 = pd.DataFrame([contact.properties for contact in get_all_contacts(connection)])
