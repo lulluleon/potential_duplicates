@@ -1,4 +1,3 @@
 # potential_duplicates
- code to fine potential duplicates in HubSpot
+ code to fine potential duplicates in HubSpot with HubSpot API
  
- This line is for testing. Please ignore it.
